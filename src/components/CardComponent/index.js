@@ -45,7 +45,7 @@ export class CardComponent extends LitElement {
         <h4><b>${this.name}</b></h4>
         <p>${this.description}</p>
         <p>${this.price}</p>
-        <img src=${this.img} alt="Avatar" style="width:100%" />
+        <img src="${this.img}" alt="Avatar" style="width:100%" />
         <button
           @click=${(e) => {
             this.delete(e.target.parentElement.querySelector("h4").innerText);

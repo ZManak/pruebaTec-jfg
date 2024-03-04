@@ -7,7 +7,7 @@ export class FormComponent extends LitElement {
   computedWeight(price) {
     return `${price} credits`;
   }
-  
+
   static get properties() {
     return {
       name: { type: String },
@@ -54,7 +54,7 @@ export class FormComponent extends LitElement {
           name: this.name,
           description: this.description,
           price: this.price,
-          image: this.image,
+          img: this.image,
         },
       })
     );
