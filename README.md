@@ -2,23 +2,26 @@
 
 This is a web shop application.
 
-[im]
+![WebShop Main](https://raw.githubusercontent.com/ZManak/pruebaTec-jfg/main/assets/01.png)
+![WebShop Create](https://raw.githubusercontent.com/ZManak/pruebaTec-jfg/main/assets/02.png)
+
+Shop content is stored on SessionStorage.
 
 ## Installation
 
-\`\`\`bash
+```bash
 
 npm install
 
-\`\`\`
+```
 
 ## Usage
 
-\`\`\`bash
+```bash
 
 npm start
 
-\`\`\`
+```
 
 ## License
 
