@@ -1,5 +1,6 @@
 import { LitElement, html } from "lit";
 import { styles } from "./web-shop.styles";
+import "./components/Menu/index";
 
 class WebShop extends LitElement {
   static properties = {
@@ -18,8 +19,6 @@ class WebShop extends LitElement {
       <main>
         <h1>Shoppo</h1>
         <menu-component></menu-component>
-        <a href="/src/pages/create-page/index.html">Create Page</a>
-        <a href="/src/pages/list-page/index.html">List Page</a>
       </main>
     `;
   }
