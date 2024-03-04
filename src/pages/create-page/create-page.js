@@ -13,13 +13,15 @@ export class CreatePage extends LitElement {
     let productSessionStorage = [
       {
         name: "Dancing Catctus",
-        img: "https://i.imgur.com/1zvz1Zz.jpg",
+        img:
+          "https://play-lh.googleusercontent.com/XipVHYgrQD3l4BfJZV5evaYBt_Ni9Il49HXWDYEjO3YeHf7oaO4syGSfuek0jAFf6fY",
         description: "This is a dancing cactus",
         price: 100,
       },
       {
         name: "Irreverent Chair",
-        img: "https://i.imgur.com/9qzq5t2.jpg",
+        img:
+          "https://static.dezeen.com/uploads/2008/11/surreal-minimalism-by-david-pompa.jpg",
         description: "This is an irreverent chair",
         price: 200,
       },
